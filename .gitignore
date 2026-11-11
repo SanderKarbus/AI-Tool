@@ -1,0 +1,11 @@
+# Secrets and local configuration
+.env
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local SQLite database and runtime files
+data/*.db
+data/*.db-shm
+data/*.db-wal
